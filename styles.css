@@ -1,16 +1,52 @@
-h1 {
-    font-family: Arial;
-    color: midnightblue;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif 
 }
+
+#banner {
+    background-image: url("./images/IMG_5153.JPG");
+    background-size: cover;
+    background-position: top center;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#banner .content {
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 10px;
+    width: 400px;
+    font-style: oblique;
+    margin: 10px;
+}
+
+h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    padding: 5px;
+}
+
 
 h2 {
-    font-family: Arial;
     color: mediumturquoise;
-    font-style: italic;
+    font-style: oblique;
+    padding: 10px;
+    border: 1px solid mediumturquoise;
+    margin: 10px;
 }
 
-
-p, article
- {
-    font-family: Helvetica;
+p, article, img {
+    padding: 10px;
+    margin: 10px;
 }
+
