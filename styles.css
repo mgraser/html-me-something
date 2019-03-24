@@ -1,0 +1,16 @@
+h1 {
+    font-family: Arial;
+    color: midnightblue;
+}
+
+h2 {
+    font-family: Arial;
+    color: mediumturquoise;
+    font-style: italic;
+}
+
+
+p, article
+ {
+    font-family: Helvetica;
+}
