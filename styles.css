@@ -5,7 +5,9 @@
   }
 
 body {
-    font-family: Arial, Helvetica, sans-serif 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9fc8db;
+    color: white;
 }
 
 #banner {
@@ -21,7 +23,7 @@ body {
     position: absolute;
     color: white;
     top: 50px;
-    left: 10px;
+    left: 20px;
     width: 400px;
     font-style: oblique;
     margin: 10px;
@@ -29,7 +31,8 @@ body {
 
 h1 {
     padding: 10px;
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 ul li {
@@ -38,15 +41,39 @@ ul li {
 
 
 h2 {
-    color: mediumturquoise;
+    color: white;
     font-style: oblique;
-    padding: 10px;
-    border: 1px solid mediumturquoise;
-    margin: 10px;
+    text-align: left;
+    display: inline;
+    border: solid 2px;
+    padding: 3px;
+    display: inline-block;
+    
 }
+
 
 p, article, img {
     padding: 10px;
-    margin: 10px;
+    display: inline-block;
+    margin-bottom:20px;
+    margin-top: 20px;
 }
 
+img {
+    border: solid white 10px;
+    position: relative;
+    margin: 20px;
+    display: inline-block;
+    
+
+}
+
+
+.section {
+    width: 50%;
+    position: relative;
+    left: 20px;
+    display: inline-block;
+    margin: 20px;
+
+}
